@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{mactex}
+奥村~晴彦他.
+\newblock Tex wiki mac.
+\newblock
+  MacTeXインストールの概略，\url{http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?Mac#t244993f}~(参照
+  2013-11-07).
+
+\bibitem{w32tex}
+奥村~晴彦他.
+\newblock Tex wiki w32tex.
+\newblock \url{http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?W32TeX}~(参照
+  2013-11-07).
+
+\bibitem{HTUlatex}
+電気通信大学佐藤研究室.
+\newblock Tex マニュアル.
+\newblock
+  \url{http://hs.hc.uec.ac.jp/index.php?plugin=attach&refer=Tex&openfile=TeXマニュアル.pdf}~(参照
+  2013-10-31).
+
+\bibitem{Kogami2009}
+湖上潤, 宮治裕, 富山健.
+\newblock 人間共生ロボットにおける擬似感性システムの構築と評価.
+\newblock 日本感性工学会論文誌, pp. 601--609, September 2009.
+
+\bibitem{WelfareJapan}
+富山健, 宮治裕.
+\newblock 介護者支援ロボットシステムの提案.
+\newblock  小原信, 神長勲（編）, 日本の福祉, 第13章, pp. 301--329. 以文社, July
+  2001.
+\newblock (ISBN4-7531-0217-3).
+
+\bibitem{Nakata2010}
+中田亨.
+\newblock 理系のための「即効！」論文術.
+\newblock 講談社, 2010.
+
+\bibitem{Miyaji2003ROMAN}
+Yutaka Miyaji and Ken Tomiyama.
+\newblock Construction of virtual kansei by petri-net with ga and method of
+  constructing personality.
+\newblock In {\em Proceedings ROMAN2003, 12th IEEE Workshop Robot and Human
+  Interactive Communication}, pp. 6B4(CD--ROM), November 2003.
+
+\end{thebibliography}

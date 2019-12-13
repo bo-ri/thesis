@@ -1,0 +1,42 @@
+\section{宮治研 抄録\LaTeX スタイルパッケージの使い方}
+基本的に論文のスタイルパッケージと同様に作業をすれば良い．
+例えば，\verb+main.tex+ファイルに必要事項を記載し，適切なファイルを取り込むように指定し，バッチコマンドを利用すれば，PDFファイルが出来上がる．
+
+なお，抄録を記述する際注意事項として，スタイルパッケージの利用方法以外については次節にて解説する．
+
+\subsection{サブタイトル有りの場合}
+配布したファイルは，サブタイトルがある場合のサンプルになっている．
+各自の 年度，学籍番号，氏名，タイトル，サブタイトルを所定の命令内に記入する．
+\begin{screen}
+{\small
+%footnotesize
+\begin{verbatim}
+\nendo{2013年度}
+\snum{15387019}
+\jname{宮治 裕}
+\thesistitle{宮治研における論文作成について}
+\thesissubtitle{\LaTeX の利用}
+\SUBTtrue
+%\SUBTfalse
+\end{verbatim}
+}
+\end{screen}
+
+\subsection{サブタイトル無しの場合}
+サブタイトル有りの場合と比較して3箇所の変更が必要である．
+\begin{enumerate}
+\item サブタイトルを記入する命令の先頭部分に \verb+%+ 記号を入れ，コメントアウト状態にする
+\item \verb+\SUBTtrue+の前に\verb+%+ 記号を入れ，コメントアウト状態にする
+\item コメントアウト状態の \verb+\SUBTfalse+の直前の \verb+%+ 記号を削除する
+\end{enumerate}
+以上の変更を行った設定を，以下に示す．
+\begin{screen}
+{\small
+%footnotesize
+\begin{verbatim}
+%\thesissubtitle{}
+%\SUBTtrue
+\SUBTfalse
+\end{verbatim}
+}
+\end{screen}

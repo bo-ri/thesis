@@ -1,0 +1,282 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 用紙サイズの設定
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\setlength{\textwidth}{\fullwidth}
+%\setlength{\textheight}{40\baselineskip}
+%\addtolength{\textheight}{\topskip}
+%\setlength{\voffset}{-0.55in}
+
+%\setlength{\textwidth}{170truemm}      % テキスト幅: 210-(20+20)=170mm
+%\setlength{\fullwidth}{\textwidth}     % ページ全体の幅
+%\setlength{\oddsidemargin}{20truemm}   % 左余白
+%\setlength{\evensidemargin}{20truemm}   % 左余白
+
+%\addtolength{\oddsidemargin}{-1truein} % 左位置デフォルトから-1inch
+%\setlength{\topmargin}{30truemm}       % 上余白
+%\setlength{\textheight}{237truemm}     % テキスト高さ: 297-(30+30)=237mm
+%\setlength{\textheight}{227truemm}     % フッタが下に行きすぎるためテキスト高さを変更
+%\addtolength{\topmargin}{-1truein}     % 上位置デフォルトから-1inch
+%\setlength{\footskip}{30.5pt} %フッタと文章の間隔を調整
+
+%\setlength{\topmargin}{-1mm}
+%\setlength{\headheight}{2mm}
+%\setlength{\headsep}{0mm}
+%\setlength{\footskip}{10mm}
+%\setlength{\voffset}{-3mm}
+\setlength{\hoffset}{-4mm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\evensidemargin}{0mm}
+%\setlength{\textwidth}{180mm}
+\setlength{\voffset}{-13mm}
+\setlength{\topmargin}{0mm}
+\setlength{\headsep}{15mm}
+\setlength{\textheight}{240mm}
+\setlength{\baselineskip}{0pt}
+\setlength{\textwidth}{170mm}
+
+
+%\setlength{\textheight}{48\baselineskip}
+\addtolength{\textheight}{\topskip}
+
+\setlength{\columnsep}{8mm}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{-3pt}
+%\renewcommand\baselinestretch{1.02}
+\normalsize\relax
+
+%\setlength{\baselineskip}{19pt}
+%\setlength{\baselineskip}{4pt}
+
+\def\intextsep{8pt}
+\def\floatsep{1pt}
+\def\textfloatsep{8pt}
+\def\dblfloatsep{1pt}
+\def\dbltextfloatsep{8pt}
+\setlength{\tabcolsep}{1mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 文章体裁の設定（フラクションをルーズに設定）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\textfraction{.001}
+\def\topfraction{.9}
+\def\bottomfraction{.9}
+\def\floatpagefraction{.99}
+\def\dbltopfraction{.999}
+\def\dblbottomfraction{.9999}
+\def\dblfloatpagefraction{.99}
+\def\JTeX{\leavevmode\lower .5ex\hbox{J}\kern-.17em\TeX}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 名称の変更
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\bibname}{参考文献}
+%\renewcommand{\figurename}{Fig. }
+%\renewcommand{\tablename}{Table }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 書式の変更
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% captionを太字に
+\makeatletter
+\long\def\@makecaption#1#2{% \@makecaption を再定義します
+\vskip\abovecaptionskip
+\iftdir\sbox\@tempboxa{#1\hskip1zw#2}%
+\else\sbox\@tempboxa{\textbf{#1 } #2} % ここを変更する
+\fi
+\ifdim \wd\@tempboxa >\hsize%
+\iftdir #1\hskip1zw#2\relax\par
+\else \textbf{#1:} #2\relax\par\fi% ここを変更する
+\else
+\global \@minipagefalse
+\hbox to\hsize{\hfil\box\@tempboxa\hfil}
+\fi
+\vskip\belowcaptionskip}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% item environment setting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\itemsep}{-5pt}
+%\setlength{\parskip}{0pt}
+\makeatletter
+
+\renewenvironment{thebibliography}[1]
+{\section*{\refname\@mkboth{\refname}{\refname}}%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \parskip\z@\relax \itemsep\z@\relax% ---adding this line--
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty\clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+  {\def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+   \endlist}
+\let\@openbib@code\@empty
+
+\renewenvironment{enumerate}
+  {%\setlength{\parskip}{0pt}\setlength{\itemsep}{0pt}% suzuki
+   \ifnum \@enumdepth >\thr@@\@toodeep\else
+   \advance\@enumdepth\@ne
+   \edef\@enumctr{enum\romannumeral\the\@enumdepth}%
+   \list{\csname label\@enumctr\endcsname}{%
+\setlength{\parskip}{0pt}\setlength{\itemsep}{0pt}% suzuki
+      \iftdir
+         \ifnum \@listdepth=\@ne \topsep.5\normalbaselineskip
+           \else\topsep\z@\fi
+         \parskip\z@ \itemsep\z@ \parsep\z@
+         \labelwidth1zw \labelsep.3zw
+         \ifnum \@enumdepth=\@ne \leftmargin1zw\relax
+           \else\leftmargin\leftskip\fi
+         \advance\leftmargin 1zw
+      \fi
+         \usecounter{\@enumctr}%
+         \def\makelabel##1{\hss\llap{##1}}}%
+   \fi}{\endlist}
+
+\renewenvironment{itemize}
+  {\ifnum \@itemdepth >\thr@@\@toodeep\else
+   \advance\@itemdepth\@ne
+   \edef\@itemitem{labelitem\romannumeral\the\@itemdepth}%
+   \expandafter
+   \list{\csname \@itemitem\endcsname}{%
+\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}\setlength{\itemsep}{0pt}% suzuki
+      \iftdir
+         \ifnum \@listdepth=\@ne \topsep.5\normalbaselineskip
+           \else\topsep\z@\fi
+         \parskip\z@ \itemsep\z@ \parsep\z@
+         \labelwidth1zw \labelsep.3zw
+         \ifnum \@itemdepth =\@ne \leftmargin1zw\relax
+           \else\leftmargin\leftskip\fi
+         \advance\leftmargin 1zw
+      \fi
+         \def\makelabel##1{\hss\llap{##1}}}%
+   \fi}
+{\endlist}
+\makeatother
+%itemizeとenumerateの設定
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% section margine setting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\section{%
+  \@startsection{section}{1}{0.0cm}%
+  {2mm}{0mm}
+  {\large\headfont}}
+\def\subsection{%
+  \@startsection{subsection}{2}{\z@}%
+  {2mm}{0mm}
+  {\normalsize\headfont}}
+\def\subsubsection{%
+  \@startsection{subsubsection}{3}{\z@}%
+  {0mm}{0mm}
+  {\normalsize\headfont}}
+\makeatother
+\makeatletter
+%\def\@seccntformat#1{\csname the#1\endcsname.\quad}
+\def\@seccntformat#1{\csname the#1\endcsname.~~}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 記号の為の設定
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\diff}{\mathrm{d}}  %微分記号
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 行数指定の為の設定
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\linesparpage#1{\baselineskip=\textheight
+   \divide\baselineskip by #1}
+\def\kcharparline#1{%
+   \ifx\xkanjiskip\undefined%
+   % NTT jTeX用
+   \jintercharskip 0mm plus 0.2mm minus 0.2mm
+   \else
+   % ASCII pTex用
+   \xkanjiskip 0mm plus 0.2mm minus 0.2mm
+   \fi
+   \settowidth{\textwidth}{あ}%
+   \multiply\textwidth by #1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ヘッダー設定
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\def\mojiparline#1{
+    \newcounter{mpl}
+    \setcounter{mpl}{#1}
+    \@tempdima=\linewidth
+    \advance\@tempdima by-\value{mpl}zw
+    \addtocounter{mpl}{-1}
+    \divide\@tempdima by \value{mpl}
+    \advance\kanjiskip by\@tempdima
+    \advance\parindent by\@tempdima
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% タイトルの設定
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\thesistitle#1{\gdef\@thesistitle{#1}}
+\def\thesissubtitle#1{\gdef\@thesissubtitle{#1}}
+\def\snum#1{\gdef\@snum{#1}}
+\def\jname#1{\gdef\@jname{#1}}
+\def\chiefexaminer#1{\gdef\@chiefexaminer{#1}}
+\def\nendo#1{\gdef\@nendo{#1}}
+\def\daigaku#1{\gdef\@daigaku{#1}}
+\def\gakubu#1{\gdef\@gakubu{#1}}
+\def\syubetsu#1{\gdef\@syubetsu{#1}}
+\newif\ifSUBT
+\def\@maketitle{%
+%%%%%%%%%%
+\newpage
+\vskip -8truemm
+\null
+%\baselineskip = 12pt
+\begin{center}
+{\Large\headfont \ \@thesistitle}\\
+\ifSUBT
+{\large \headfont ―~\@thesissubtitle~―}
+\fi
+\vskip 2truemm
+{\headfont
+\begin{tabular}{rl}
+%{\Large 学籍番号 \snum}\\ % 学籍番号
+学籍番号 & \hspace{1zw}{\@snum}\\
+%{\Large \jname}\\ % 著者
+氏名 & \hspace{1zw}{\@jname}\\
+指導教員 & \hspace{1zw}{\@chiefexaminer}
+\end{tabular}
+}
+\vskip 4truemm
+\end{center}
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%
+% ヘッダ情報設定
+%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\fancypagestyle{pg}
+{
+\chead{\@nendo~~\@daigaku\@gakubu\@syubetsu}
+\lhead{}
+\rhead{}
+\renewcommand{\headrulewidth}{0.0pt}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+}
+\makeatother
+
+

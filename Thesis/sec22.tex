@@ -1,0 +1,52 @@
+\section{スタイルパッケージ配布ファイル構成}
+配布したフォルダには様々なファイルが同梱されているが，主要なファイルは拡張子が[tex][bib][cls][bat]である．
+
+拡張子が「tex」ファイルは，本文を記載するファイルである．
+本文中には，\LaTeX の命令をマークアップしていく．
+
+拡張子が「bib」ファイルは，参考文献を記載するファイルである．
+\BibTeX の命令でマークアップしていく．
+このファイルを \LaTeX 側から呼び出し，参照したり番号を割り振ったりする．
+
+拡張子が「cls」ファイルは，設定事項を記載するファイルである．
+基本的に，この拡張子のファイルは変更する必要は無い．
+
+拡張子が「bat」ファイルは，\LaTeX のソースファイルから，PDFファイルを作成するまでの一連の命令を実行するバッチファイルである．
+\LaTeX において標準的には，本バッチファイル内の命令は各自で順に実行するのだが，煩雑である．
+宮治が作成した（というほどのものではないが）本バッチファイルを実行すれば，その中の命令は意識する必要はない．
+今回配布のバッチファイルは Macintosh と Windowsで別のものを利用する．
+
+主要なファイルの説明を 表\ref{table:files2}に記載する．
+\begin{table}[H]
+\begin{center}
+\caption{スタイルパッケージ内のファイル説明}
+\vspace{-2mm}
+{\footnotesize
+\begin{tabular}{|l|l|l|}
+\hline
+ファイル名 & 内容 & 注意\\\hline\hline
+main.tex & 大元のファイル & 各種設定や読み込むファイルなどを設定\\\hline
+main.dvi & できたファイル & \\\hline
+main.pdf & pdfファイル & dvi ファイルを元に作成\\\hline
+myjlab.sty & 宮治研用スタイルファイル & 変更不要\\\hline
+abstract.tex & 要旨を記述 & 章や節の命令は入れずに文章を入力\\\hline
+thanks.tex & 謝辞を記述 & 章や節の命令は入れずに文章を入力\\\hline
+chap1.tex & 第1章を記述 & \\\hline
+chap2.tex & 第2章を記述 & \\\hline
+sec21.tex, sec22.tex など& 2章1節と2節のファイル & chap2.texが大きくなったのでファイルを分割\\\hline
+chap3.tex & 第3章を記述 & 注：3章内のファイルも節毎にファイルを分割\\\hline
+chap4から6.tex & 4章から6章のファイル & 配布無し，各自で作成し，main.tex修正\\\hline
+appendixa.tex & 付録Aを記述 & \\\hline
+appendixb.tex & 付録Bのファイル & 配布無し，各自で作成し，main.tex修正\\\hline
+myrefs.bib & 参考文献情報ファイル & 記述方法が特殊\\\hline
+mklatex.bat & Macintosh用の実行バッチファイル & 命令を憶えずとも，main.tex⇒main.pdf\\\hline
+winmklatex.bat & Windows用の実行バッチファイル & 命令を憶えずとも，main.tex⇒main.pdf\\\hline
+\end{tabular}
+}
+\label{table:files2}
+\end{center}
+\end{table}
+
+これらのファイルの変更方法，記入方法を以下で解説する．
+
+

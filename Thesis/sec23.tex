@@ -1,0 +1,215 @@
+\section{main.tex： 大元となり，各自の情報，論文構成を記述}
+main.tex では，各自の個人情報や，論文の章立ておよび章を構成するファイルの読み込みを設定する．
+
+\subsection{各自の情報設定}
+各自の情報を設定する際には，サブタイトルの有り／無しで設定事項が異なることに注意をする必要がある．
+それぞれの方法について以下に記述する．
+また，これらの作業が終わった時点で，本配布スタイルパッケージの動作確認をすることをおすすめする．
+
+\subsubsection{サブタイトル有りの場合}
+配布したファイルは，サブタイトルがある場合のサンプルになっている．
+各自の 年度，提出年月，学籍番号，氏名，タイトル，サブタイトルを所定の命令内に記入する．
+\begin{breakbox}
+{\small
+%footnotesize
+\begin{verbatim}
+\nendo{2013年度}
+\teisyutsu{2014年~~1月}
+\snum{15387019}
+\jname{宮治 裕}
+\thesistitle{宮治研における論文作成について} %タイトルを記入
+\thesissubtitle{\LaTeX の利用} %サブタイトルを記入 ない場合はコメントアウト
+\SUBTtrue %サブタイトル有りの場合 ない場合は，コメントアウト
+%\SUBTfalse %サブタイトル無しの場合 有る場合は，コメントアウト
+\end{verbatim}
+}
+\end{breakbox}
+
+\subsubsection{サブタイトル無しの場合}
+サブタイトル有りの場合と比較して2箇所の変更が必要である．
+サブタイトルを記入する命令の先頭部分に \% 記号を入れ，コメントアウト状態にする．
+
+\begin{breakbox}
+{\small
+\begin{verbatim}
+%\thesissubtitle{\LaTeX の利用} %サブタイトルを記入 無い場合は，コメントアウト
+\end{verbatim}
+}
+\end{breakbox}
+もう一つは，その直下の2行
+\begin{breakbox}
+{\small
+\begin{verbatim}
+\SUBTtrue %サブタイトル有りの場合 無い場合は，コメントアウト
+%\SUBTfalse %サブタイトル無しの場合 有る場合は，コメントアウト
+\end{verbatim}
+}
+\end{breakbox}
+以下の様に変更する．
+\begin{breakbox}
+{\small
+\begin{verbatim}
+%\SUBTtrue %サブタイトル有りの場合 無い場合は，コメントアウト
+\SUBTfalse %サブタイトル無しの場合 有る場合は，コメントアウト
+\end{verbatim}
+}
+\end{breakbox}
+
+以上の設定で，表紙と各ページのヘッダ・フッタの情報が自動的に設定され，書式が整えられる．
+\begin{boxnote}
+\LaTeX では 「\verb+%+」はコメントを意味し，この記号から改行コードまでをコメントアウト状態として処理する．
+\end{boxnote}
+であることに注意すること．
+
+\subsubsection{スタイルパッケージの動作確認}
+サブタイトルの有り／無しに応じて適切に設定ができた段階で，一度各自の環境下でスタイルパッケージが正常動作することを確認して欲しい．
+正常動作した場合には，本ファイルとほぼ同様の中身で，表紙と各ページのヘッダとフッタが各自の設定した情報が記載されたPDFファイルが出来上がるはずである．
+
+まず，Macintoshの場合について記す．
+各自のホームディレクトリ中のDropboxフォルダ内に，本スタイルパッケージが展開されている場合を前提として記述する．
+\begin{enumerate}
+\item まず，ターミナルを開く
+\item 以下のコマンドを入力し，スタイルパッケージのあるフォルダに移動
+\footnote{ここで　\verb+$+記号は，コマンドプロンプトを表すため，入力しないように．}
+\begin{screen}
+{\small
+\begin{verbatim}
+ $ cd ~/Dropbox/Thesis
+\end{verbatim}
+}
+\end{screen}
+
+\item そこで，バッチファイル \verb+mklatex.bat+ を実行
+\begin{screen}
+{\small
+\begin{verbatim}
+ $ ./mklatex.bat
+\end{verbatim}
+}
+\end{screen}
+
+\item main.pdfファイルが作成され，プレビュー画面が自動で表示される
+\item[\textbf{注}] mklatex.bat が実行できないというようなエラーが出た場合には，最初の一回だけ（次回から不要）以下の命令を入力する
+\begin{screen}
+{\small
+\begin{verbatim}
+ $ chmod 755 ./mklatex.bat
+\end{verbatim}
+}
+\end{screen}
+\end{enumerate}
+
+正常動作しなかった場合には，出来上がった main.log ファイルを宮治に送付して欲しい．
+
+Windowsの場合には，コマンドプロンプトを開き，目的のフォルダに移動し，バッチファイル（winmklatex.bat）を起動する．
+\begin{screen}
+{\small
+\begin{verbatim}
+ $ cd c:\My Documents\Dropbox\Thesis
+ $ winmklatex.bat
+\end{verbatim}
+}
+\end{screen}
+main.pdfファイルができるので，エクスプローラからファイルをダブルクリックしてAcrobat Reader にて確認して欲しい．
+
+\subsection{論文構成の設定}
+main.texファイル内の以下の部分で論文構成を決定する．
+一つの tex ファイルで論文を書ききることも可能だが，論文の構成や見通しが悪くなるために，このスタイルパッケージでは，main.tex ファイルから複数のtexファイルを読み込むようにしている．
+「論文要旨」「謝辞」「論文の各章」「付録」などが，読み込まれるファイルである．
+
+\subsubsection{論文要旨の読み込み}
+まず，論文要旨は以下の形で定義されている．
+\begin{breakbox}
+{\small
+\begin{verbatim}
+\chapter*{論文要旨}
+\addcontentsline{toc}{chapter}{論文要旨}
+\input{abstract}
+% abstract.texの中は \chapterなど書かずに単なるテキストを入力する
+\end{verbatim}
+}
+\end{breakbox}
+具体的には，\verb+\input{abstract}+となっている部分で，abstract.texファイルを読み込んでいる．
+コメントにも書いてあるように，abstract.tex 内には, \verb+\chapter+命令を入れない．
+
+\subsubsection{謝辞の読み込み}
+次に謝辞は以下の様に定義されている．
+\begin{breakbox}
+{\small
+\begin{verbatim}
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+\input{thanks}
+% thanks.texの中は \chapterなど書かずに単なるテキストを入力する
+\end{verbatim}
+}
+\end{breakbox}
+論文要旨と同様に thanks.tex ファイルに \verb+\chapter+命令を入れずに記述する．
+
+\subsubsection{目次の設定}
+次に目次が定義されている．
+\begin{breakbox}
+{\small
+%footnotesize
+\begin{verbatim}
+%%% 目次
+\tableofcontents
+\end{verbatim}
+}
+\end{breakbox}
+特に気にせずとも上記命令のままで，目次が自動生成される．
+
+\subsubsection{各章の読み込み}
+ここから各章の記載である．
+本パッケージでは，サンプルとして1章〜3章を読み込むようにしている．
+具体的には \verb+\include+ 命令で chap1.tex chap2.tex chap3.tex が読み込まれている．
+これらのファイル名は，適宜変更して構わない．
+また，4章以降の部分はコメントアウトしているが，各自で適宜変更して欲しい．
+\begin{breakbox}
+{\small
+%footnotesize
+\begin{verbatim}
+\include{chap1} % 1章
+\include{chap2} % 2章
+\include{chap3} % 3章
+%\include{chap4} % 4章
+%\include{chap5} % 5章
+%\include{chap6} % 6章
+\end{verbatim}
+}
+\end{breakbox}
+
+なお，これらのファイルは通常の\verb+\chapter+など \LaTeX の命令でマークアップしていけば良い．
+chapter1.tex や chapter2.tex，chapter3.tex 内を見れば，おおよその方法は理解できるはずである．
+
+\subsubsection{付録の設定と読み込み}
+付録は以下の様になっている．
+\begin{breakbox}
+{\small
+%footnotesize
+\begin{verbatim}
+%%% 付録 -- 必要なければ以下を2行コメントアウト
+\appendix
+\include{appendixA}
+%\include{appendixB} %必要に応じて付録の数を増やす
+\end{verbatim}
+}
+\end{breakbox}
+サンプルとして 付録A(appendixA.tex)だけ読み込む様にしている．
+このファイルも通常の\verb+\chapter+など通常の\LaTeX の命令でマークアップしていけば良い．
+また，必要に応じて追加，コメントアウトして構わない．
+
+\subsubsection{参考文献の設定と読み込み}
+最後に参考文献の設定がなされている．
+\begin{breakbox}
+{\small
+%footnotesize
+\begin{verbatim}
+\bibliographystyle{junsrt}
+\bibliography{myrefs}
+\end{verbatim}
+}
+\end{breakbox}
+\verb+\bibliography{myrefs}+によって myrefs.bib ファイルが読み込まれている．
+このファイルは \BibTeX のフォーマットにて記載されている．
+詳細は3章にて記述する．
