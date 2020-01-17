@@ -15,18 +15,8 @@
 \bibitem{hojokin2}
 
 
-\bibitem{mactex}
-奥村~晴彦他.
-\newblock Tex wiki mac.
-\newblock
-  MacTeXインストールの概略，\url{http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?Mac#t244993f}~(参照
-  2013-11-07).
-
-\bibitem{w32tex}
-奥村~晴彦他.
-\newblock Tex wiki w32tex.
-\newblock \url{http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?W32TeX}~(参照
-  2013-11-07).
+\bibitem{word2vec}
+Technical report.
 
 \bibitem{HTUlatex}
 電気通信大学佐藤研究室.

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.11.5)  13 JAN 2020 11:24
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.11.5)  14 JAN 2020 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,7 +325,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 4.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 25.
+(Font)              scaled to size 6.72699pt on input line 19.
  [3
 
 ])
@@ -354,53 +354,21 @@ LaTeX Warning: Reference `fig:university_num' on page 2 undefined on input line
  23.
 
 File: images/shigansya.jpg Graphic file (type bmp)
-<images/shigansya.jpg> [2] [3]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 51.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 51.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 51.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 51.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 51.
- (./format.tex [4])) [5
-
-]
+<images/shigansya.jpg> [2] [3]) [4]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
 第2章
 (./sec21.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 6.
+(Font)              scaled to size 11.53198pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 6.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
- [6
+(Font)              scaled to size 11.53198pt on input line 4.
+) (./sec22.tex) (./sec23.tex)) [5
 
 
 
-])
-(./sec22.tex [7]) (./sec23.tex [8]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 13.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 13.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 15.
- [9]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 73.
- [10] [11])) [12]
+]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
@@ -409,55 +377,84 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 1.
-(./sec31basic.tex [13
+(./sec31basic.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 2.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 2.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 2.
+ [6
 
 
 
-] [14]) (./sec32figure.tex
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+
+[7]) (./sec32figure.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 12.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 12.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 13.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 13.
 File: MMS.pdf Graphic file (type pdf)
- <MMS.pdf> [15] [16]
+ <MMS.pdf> [8] [9]
 File: DEF059.jpg Graphic file (type bmp)
-
-<DEF059.jpg>) (./sec33table.tex [17]
+ <DEF059.jpg>) (./sec33table.tex
+[10]
 File: tableFinishImage.png Graphic file (type bmp)
  <tableFinishImage.png>
 File: excelTable.png Graphic file (type bmp)
  <excelTable.png>
 File: csv2tex.png Graphic file (type bmp)
-
-<csv2tex.png>
+ <csv2tex.png>
 File: inputTypeChange.png Graphic file (type bmp)
- <inputTypeChange.png> [18]
+
+<inputTypeChange.png> [11]
 File: convertTable.png Graphic file (type bmp)
  <convertTable.png>
 Overfull \hbox (9.80908pt too wide) in paragraph at lines 69--71
  [] 
  []
 
-[19] [20] [21]
+[12] [13] [14]
 Overfull \hbox (4.26125pt too wide) in paragraph at lines 242--251
  [][] 
  []
 
-[22] [23]) (./sec34bib.tex [24])) [25]
+[15] [16]) (./sec34bib.tex [17])) [18]
 \openout2 = `appendixA.aux'.
 
  (./appendixA.tex
 付録A
-) [26
+) [19
 
 
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 59.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 59.
+(Font)              scaled to size 9.60999pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 59.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 59.
-) [27
+(Font)              scaled to size 9.60999pt on input line 49.
+) [20
 
 
 ]
@@ -468,12 +465,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3215 strings out of 494865
- 39330 string characters out of 6179769
- 104528 words of memory out of 5000000
- 6498 multiletter control sequences out of 15000+600000
+ 3210 strings out of 494865
+ 39282 string characters out of 6179769
+ 104527 words of memory out of 5000000
+ 6496 multiletter control sequences out of 15000+600000
  35222 words of font info for 153 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 31i,11n,43p,357b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,11n,43p,357b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (32 pages, 93284 bytes).
+Output written on main.dvi (25 pages, 68820 bytes).
