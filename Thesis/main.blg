@@ -4,95 +4,49 @@ The top-level auxiliary file: main.aux
 A level-1 auxiliary file: chap1.aux
 A level-1 auxiliary file: chap2.aux
 A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
 A level-1 auxiliary file: appendixA.aux
 The style file: junsrt.bst
 Database file #1: myrefs.bib
-I was expecting a `,' or a `}'---line 2 of file myrefs.bib
- : 
- : author = "文部科学省",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 8 of file myrefs.bib
- : 
- : author = "文部科学省",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 14 of file myrefs.bib
- : 
- : author = "旺文社",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--entry type for "shigan" isn't style-file defined
---line 19 of file myrefs.bib
-I was expecting a `,' or a `}'---line 20 of file myrefs.bib
- : 
- : author = "日本私立学校振興・共済事業団",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 26 of file myrefs.bib
- : 
- : author = "文部科学省",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 32 of file myrefs.bib
- : 
- : author = "文部科学省",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 38 of file myrefs.bib
- : 
- : author = "Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--all relevant fields are empty in univContinuanceRate
-Warning--all relevant fields are empty in Shingakusyusienseido
-Warning--all relevant fields are empty in shigan
-Warning--all relevant fields are empty in hojokin1
-Warning--all relevant fields are empty in hojokin2
-Warning--empty author in word2vec
-Warning--empty title in word2vec
-Warning--empty institution in word2vec
-Warning--empty year in word2vec
-You've used 11 entries,
+You've used 15 entries,
             2270 wiz_defined-function locations,
-            586 strings with 4945 characters,
-and the built_in function-call counts, 2499 in all, are:
-= -- 156
-> -- 45
+            622 strings with 6275 characters,
+and the built_in function-call counts, 3483 in all, are:
+= -- 244
+> -- 88
 < -- 3
-+ -- 22
-- -- 11
++ -- 39
+- -- 24
 * -- 86
-:= -- 241
-add.period$ -- 23
-call.type$ -- 11
-change.case$ -- 5
+:= -- 414
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 180
-empty$ -- 320
-format.name$ -- 22
-if$ -- 632
+cite$ -- 15
+duplicate$ -- 231
+empty$ -- 411
+format.name$ -- 48
+if$ -- 871
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 5
-newline$ -- 47
-num.names$ -- 7
-pop$ -- 118
+int.to.str$ -- 15
+missing$ -- 7
+newline$ -- 77
+num.names$ -- 15
+pop$ -- 170
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 176
+skip$ -- 181
 stack$ -- 0
 substring$ -- 106
-swap$ -- 42
+swap$ -- 44
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 13
-width$ -- 13
-write$ -- 82
-is.kanji.str$ -- 89
-(There were 7 error messages)
+warning$ -- 0
+while$ -- 21
+width$ -- 17
+write$ -- 148
+is.kanji.str$ -- 129

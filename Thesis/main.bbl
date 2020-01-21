@@ -1,29 +1,54 @@
 \begin{thebibliography}{10}
 
 \bibitem{univContinuanceRate}
-
+文部科学省.
+\newblock 平成30年度画稿基本調査（確定値）の好評について.
+\newblock
+  \url{https://www.mext.go.jp/component/b_menu/other/__icsFiles/afieldfile/2018/12/25/1407449_1.pdf}.
 
 \bibitem{Shingakusyusienseido}
-
+文部科学省.
+\newblock 高等教育の修学支援新制度.
+\newblock \url{https://www.mext.go.jp/a_menu/koutou/hutankeigen/index.htm}.
 
 \bibitem{shigan}
-
+日本私立学校振興・共済事業団.
+\newblock 平成31(2019)年度私立大学・短期大学等入学志願動向.
+\newblock \url{https://www.shigaku.go.jp/files/shigandoukouH31.pdf}.
 
 \bibitem{hojokin1}
-
+文部科学省.
+\newblock
+  平成28年度以降の定員管理に係る私立大学等経常補助金の取り扱いについて（通知）.
+\newblock
+  \url{https://www.mext.go.jp/a_menu/koutou/shinkou/07021403/002/002/__icsFiles/afieldfile/2015/07/13/1360007_2.pdf}.
 
 \bibitem{hojokin2}
+文部科学省.
+\newblock
+  平成31年度以降の定員管理に関わる私立大学等経常補助金の取り扱いについて（通知）.
+\newblock
+  \url{https://www.mext.go.jp/a_menu/koutou/shinkou/07021403/002/002/__icsFiles/afieldfile/2018/09/19/1409177.pdf}.
 
+\bibitem{word2vecBook}
+西尾泰和.
+\newblock word2vecによる自然言語処理.
+\newblock 株式会社オライリー・ジャパン, 2014.
 
 \bibitem{word2vec}
-Technical report.
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock Technical report, Google Inc. Mountain View, CA, 9 2013.
 
-\bibitem{HTUlatex}
-電気通信大学佐藤研究室.
-\newblock Tex マニュアル.
-\newblock
-  \url{http://hs.hc.uec.ac.jp/index.php?plugin=attach&refer=Tex&openfile=TeXマニュアル.pdf}~(参照
-  2013-10-31).
+\bibitem{pressCenter}
+大学プレスセンター.
+\newblock \url{https://www.u-presscenter.jp/}.
+
+\bibitem{glove}
+Jeffrey Pennington, Richard Socher, and Christopher D.Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock Technical report, Computer Science Department, Stanford University,
+  Stanford, CA 94305, 2014.
 
 \bibitem{Kogami2009}
 湖上潤, 宮治裕, 富山健.
@@ -48,5 +73,16 @@ Yutaka Miyaji and Ken Tomiyama.
   constructing personality.
 \newblock In {\em Proceedings ROMAN2003, 12th IEEE Workshop Robot and Human
   Interactive Communication}, pp. 6B4(CD--ROM), November 2003.
+
+\bibitem{HTUlatex}
+電気通信大学佐藤研究室.
+\newblock Tex マニュアル.
+\newblock
+  \url{http://hs.hc.uec.ac.jp/index.php?plugin=attach&refer=Tex&openfile=TeXマニュアル.pdf}~(参照
+  2013-10-31).
+
+\bibitem{passNavi}
+大学受験パスナビ.
+\newblock \url{https://passnavi.evidus.com/}.
 
 \end{thebibliography}

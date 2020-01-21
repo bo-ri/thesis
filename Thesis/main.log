@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.11.5)  14 JAN 2020 00:58
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.11.5)  21 JAN 2020 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,7 +242,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 
 
 Writing index file main.idx
-(./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./appendixA.aux))
+(./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
+(./appendixA.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -283,8 +284,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 56.
 LaTeX Font Info:    Try loading font information for U+msa on input line 56.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 56.
@@ -324,15 +324,13 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 4.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 19.
  [3
 
-])
+] [4])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4]
+ [5]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex
@@ -361,116 +359,118 @@ File: images/shigansya.jpg Graphic file (type bmp)
 第2章
 (./sec21.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 4.
+(Font)              scaled to size 11.53198pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 4.
-) (./sec22.tex) (./sec23.tex)) [5
+(Font)              scaled to size 11.53198pt on input line 7.
+ [5
 
 
 
-]
+]) (./sec22.tex [6]) (./sec23.tex [7])) [8]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
 第3章
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 1.
-(./sec31basic.tex
+(./sec31basic.tex) (./sec32figure.tex) (./sec33table.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 2.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 2.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 2.
- [6
+(Font)              scaled to size 6.72699pt on input line 6.
+File: tableFinishImage.png Graphic file (type bmp)
+
+<tableFinishImage.png> [9
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-
-[7]) (./sec32figure.tex
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 12.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 12.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 13.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 13.
-File: MMS.pdf Graphic file (type pdf)
- <MMS.pdf> [8] [9]
-File: DEF059.jpg Graphic file (type bmp)
- <DEF059.jpg>) (./sec33table.tex
-[10]
-File: tableFinishImage.png Graphic file (type bmp)
- <tableFinishImage.png>
 File: excelTable.png Graphic file (type bmp)
  <excelTable.png>
 File: csv2tex.png Graphic file (type bmp)
  <csv2tex.png>
 File: inputTypeChange.png Graphic file (type bmp)
 
-<inputTypeChange.png> [11]
+<inputTypeChange.png> [10]
 File: convertTable.png Graphic file (type bmp)
  <convertTable.png>
 Overfull \hbox (9.80908pt too wide) in paragraph at lines 69--71
  [] 
  []
 
-[12] [13] [14]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 79.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 79.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 80.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 80.
+[11] [12] [13]
 Overfull \hbox (4.26125pt too wide) in paragraph at lines 242--251
  [][] 
  []
 
-[15] [16]) (./sec34bib.tex [17])) [18]
+[14] [15]) (./sec34bib.tex [16])) [17]
+\openout2 = `chap4.aux'.
+
+ (./chap4.tex
+第4章
+[18
+
+
+
+]
+Overfull \hbox (43.0818pt too wide) in paragraph at lines 36--45
+ [][] 
+ []
+
+[19] (./word2vecResult.tex [20]
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 35.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 35.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 35.
+ [21] [22] [23] [24] [25]) (./gloveResult.tex
+[26] [27] [28] [29] [30] [31])) [32]
 \openout2 = `appendixA.aux'.
 
  (./appendixA.tex
 付録A
-) [19
+) [33
 
 
 
 ] (./main.bbl
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 49.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 49.
-) [20
+Underfull \hbox (badness 1742) in paragraph at lines 4--8
+[]\JY1/mc/m/n/10 文部科学省\OT1/cmr/m/n/10 .  \JY1/mc/m/n/10 平成 \OT1/cmr/m/n/
+10 30 \JY1/mc/m/n/10 年度画稿基本調査 （ 確定値 ） の好評につい
+ []
+
+[34
 
 
 ]
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 74.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 74.
+) [35]
 No file main.ind.
-(./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./appendixA.aux))
+(./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
+(./appendixA.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3210 strings out of 494865
- 39282 string characters out of 6179769
- 104527 words of memory out of 5000000
- 6496 multiletter control sequences out of 15000+600000
- 35222 words of font info for 153 fonts, out of 8000000 for 9000
+ 3189 strings out of 494865
+ 38808 string characters out of 6179769
+ 108122 words of memory out of 5000000
+ 6470 multiletter control sequences out of 15000+600000
+ 27203 words of font info for 121 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 33i,11n,43p,357b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,43p,332b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (25 pages, 68820 bytes).
+Output written on main.dvi (41 pages, 135376 bytes).
