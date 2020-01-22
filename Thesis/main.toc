@@ -20,54 +20,51 @@
 \contentsline {subsection}{\numberline {2.3.2}Inverse Document Frequency}{7}
 \contentsline {subsection}{\numberline {2.3.3}本研究での利用}{8}
 \contentsline {chapter}{\numberline {第3章}システム概要}{9}
-\contentsline {section}{\numberline {3.1}本論文で構築したシステム}{9}
-\contentsline {subsection}{\numberline {3.1.1}単語ベクトルのモデル}{9}
-\contentsline {subsection}{\numberline {3.1.2}ストップワード}{9}
-\contentsline {subsection}{\numberline {3.1.3}学部・偏差値データベース}{9}
-\contentsline {subsection}{\numberline {3.1.4}キャンパス所在地データベース}{9}
-\contentsline {section}{\numberline {3.2}システムの利用方法}{9}
-\contentsline {subsection}{\numberline {3.2.1}大学名でキーワード検索}{9}
-\contentsline {section}{\numberline {3.3}表の挿入}{9}
-\contentsline {subsection}{\numberline {3.3.1}表の作成と変換方法}{9}
-\contentsline {subsubsection}{表の作成}{10}
-\contentsline {subsubsection}{表の変換}{10}
-\contentsline {subsubsection}{表の修正}{11}
-\contentsline {subsection}{\numberline {3.3.2}横罫線の設定}{12}
-\contentsline {subsection}{\numberline {3.3.3}表内の基本部分の表示位置の変更}{13}
-\contentsline {subsection}{\numberline {3.3.4}表の参照}{14}
-\contentsline {subsection}{\numberline {3.3.5}表の位置の設定}{14}
-\contentsline {subsection}{\numberline {3.3.6}縦罫線の設定と表内見出しなどの位置変更}{14}
-\contentsline {subsubsection}{縦罫線の設定}{14}
-\contentsline {subsubsection}{表内の見出し行などの部分の表示位置の変更}{15}
-\contentsline {section}{\numberline {3.4}参考文献と参照}{16}
-\contentsline {chapter}{\numberline {第4章}検証実験}{18}
-\contentsline {section}{\numberline {4.1}実験概要}{18}
-\contentsline {section}{\numberline {4.2}評価軸}{19}
-\contentsline {section}{\numberline {4.3}パラメータの詳細}{19}
-\contentsline {subsection}{\numberline {4.3.1}単語ベクトルの次元数}{19}
-\contentsline {subsection}{\numberline {4.3.2}反復回数}{20}
-\contentsline {subsection}{\numberline {4.3.3}windowサイズ}{20}
-\contentsline {subsection}{\numberline {4.3.4}x-max}{20}
-\contentsline {section}{\numberline {4.4}Word2Vecのモデル検証結果}{20}
-\contentsline {subsection}{\numberline {4.4.1}WV\_ A}{20}
-\contentsline {subsection}{\numberline {4.4.2}WV\_ B}{21}
-\contentsline {subsection}{\numberline {4.4.3}WV\_ C}{22}
-\contentsline {subsection}{\numberline {4.4.4}WV\_ D}{23}
-\contentsline {subsection}{\numberline {4.4.5}WV\_ E}{23}
-\contentsline {subsection}{\numberline {4.4.6}WV\_ F}{24}
-\contentsline {subsection}{\numberline {4.4.7}WV\_ G}{25}
-\contentsline {subsection}{\numberline {4.4.8}WV\_ H}{25}
-\contentsline {section}{\numberline {4.5}GloVeのモデル検証結果}{26}
-\contentsline {subsection}{\numberline {4.5.1}GV\_ A}{27}
-\contentsline {subsection}{\numberline {4.5.2}GV\_ B}{27}
-\contentsline {subsection}{\numberline {4.5.3}GV\_ C}{28}
-\contentsline {subsection}{\numberline {4.5.4}GV\_ D}{29}
-\contentsline {subsection}{\numberline {4.5.5}GV\_ E}{29}
-\contentsline {subsection}{\numberline {4.5.6}GV\_ F}{30}
-\contentsline {subsection}{\numberline {4.5.7}GV\_ G}{30}
-\contentsline {subsection}{\numberline {4.5.8}GV\_ H}{31}
-\contentsline {chapter}{\numberline {付録A}プログラムの動作方法}{33}
-\contentsline {section}{\numberline {A.1}ファイル構成}{33}
-\contentsline {section}{\numberline {A.2}起動方法}{33}
-\contentsline {section}{\numberline {A.3}表示の見方}{33}
+\contentsline {section}{\numberline {3.1}本研究で構築したシステム}{9}
+\contentsline {subsection}{\numberline {3.1.1}概要}{9}
+\contentsline {subsection}{\numberline {3.1.2}モデル部}{9}
+\contentsline {subsection}{\numberline {3.1.3}大学情報データベース部}{10}
+\contentsline {section}{\numberline {3.2}利用方法}{11}
+\contentsline {subsection}{\numberline {3.2.1}ある大学の単語ベクトルと近い大学の取得}{11}
+\contentsline {subsection}{\numberline {3.2.2}大学に単語を加算した大学を取得}{11}
+\contentsline {subsection}{\numberline {3.2.3}大学から単語を減算した大学を取得}{12}
+\contentsline {subsection}{\numberline {3.2.4}ある大学と他の大学間で共通の似た意味の単語を取得}{12}
+\contentsline {subsection}{\numberline {3.2.5}大学の情報を取得}{13}
+\contentsline {chapter}{\numberline {第4章}検証実験}{14}
+\contentsline {section}{\numberline {4.1}実験概要}{14}
+\contentsline {section}{\numberline {4.2}評価軸}{15}
+\contentsline {section}{\numberline {4.3}パラメータの詳細}{15}
+\contentsline {subsection}{\numberline {4.3.1}単語ベクトルの次元数}{15}
+\contentsline {subsection}{\numberline {4.3.2}反復回数}{16}
+\contentsline {subsection}{\numberline {4.3.3}windowサイズ}{16}
+\contentsline {subsection}{\numberline {4.3.4}x-max}{16}
+\contentsline {section}{\numberline {4.4}Word2Vecのモデル検証結果}{16}
+\contentsline {subsection}{\numberline {4.4.1}WV\_ A}{16}
+\contentsline {subsection}{\numberline {4.4.2}WV\_ B}{17}
+\contentsline {subsection}{\numberline {4.4.3}WV\_ C}{18}
+\contentsline {subsection}{\numberline {4.4.4}WV\_ D}{19}
+\contentsline {subsection}{\numberline {4.4.5}WV\_ E}{19}
+\contentsline {subsection}{\numberline {4.4.6}WV\_ F}{20}
+\contentsline {subsection}{\numberline {4.4.7}WV\_ G}{21}
+\contentsline {subsection}{\numberline {4.4.8}WV\_ H}{21}
+\contentsline {section}{\numberline {4.5}GloVeのモデル検証結果}{22}
+\contentsline {subsection}{\numberline {4.5.1}GV\_ A}{23}
+\contentsline {subsection}{\numberline {4.5.2}GV\_ B}{23}
+\contentsline {subsection}{\numberline {4.5.3}GV\_ C}{24}
+\contentsline {subsection}{\numberline {4.5.4}GV\_ D}{25}
+\contentsline {subsection}{\numberline {4.5.5}GV\_ E}{25}
+\contentsline {subsection}{\numberline {4.5.6}GV\_ F}{26}
+\contentsline {subsection}{\numberline {4.5.7}GV\_ G}{26}
+\contentsline {subsection}{\numberline {4.5.8}GV\_ H}{27}
+\contentsline {chapter}{\numberline {第5章}おわりに}{29}
+\contentsline {section}{\numberline {5.1}Word2Vecモデルの考察}{29}
+\contentsline {subsection}{\numberline {5.1.1}青山学院大学に近い大学}{29}
+\contentsline {subsection}{\numberline {5.1.2}$ 青山学院大学 - キリスト教 $}{30}
+\contentsline {subsection}{\numberline {5.1.3}青山学院大学と明治学院大学で共通の近い単語}{30}
+\contentsline {section}{\numberline {5.2}GloVeモデルの考察}{31}
+\contentsline {subsection}{\numberline {5.2.1}青山学院大学と近い大学}{31}
+\contentsline {subsection}{\numberline {5.2.2}$ 青山学院大学 - キリスト教 $}{31}
+\contentsline {subsection}{\numberline {5.2.3}青山学院大学と明治学院大学で共通の近い単語}{32}
+\contentsline {section}{\numberline {5.3}モデル評価のまとめ}{32}
+\contentsline {section}{\numberline {5.4}改善点}{32}
 \contentsline {chapter}{参考文献}{34}
