@@ -30,6 +30,27 @@
 \newblock
   \url{https://www.mext.go.jp/a_menu/koutou/shinkou/07021403/002/002/__icsFiles/afieldfile/2018/09/19/1409177.pdf}.
 
+\bibitem{ronza}
+篠原秀雄.
+\newblock 次第定員厳格化がひきおこした大学受験の大混乱.
+\newblock
+  \url{https://webronza.asahi.com/science/articles/2019112600002.html?page=2}.
+
+\bibitem{reason}
+北篠英勝.
+\newblock 私立大学 学生生活白書 2018.
+\newblock Technical report, 一般社団法人日本私立大学連盟, 2018.
+
+\bibitem{thesis1}
+明畠利樹, 中西健太郎, 岩本拓也.
+\newblock Datingserviceのデータを用いたword2vecによる趣味・嗜好の類似度計算,
+  2017.
+
+\bibitem{thesis2}
+本間直人, 北原鉄朗ほか.
+\newblock アニメの主題歌による類似アニメ検索の検討.
+\newblock 研究報告音声言語情報処理 (SLP), Vol. 2018, No.~42, pp. 1--2, 2018.
+
 \bibitem{word2vecBook}
 西尾泰和.
 \newblock word2vecによる自然言語処理.
@@ -49,6 +70,11 @@ Jeffrey Pennington, Richard Socher, and Christopher D.Manning.
 \newblock Glove: Global vectors for word representation.
 \newblock Technical report, Computer Science Department, Stanford University,
   Stanford, CA 94305, 2014.
+
+\bibitem{tfidf}
+天野真家, 石崎俊, 宇津呂武仁, 成田真澄, 福本淳一.
+\newblock 自然言語処理システム.
+\newblock  自然言語処理, p. 138. 2007.
 
 \bibitem{passNavi}
 大学受験パスナビ.

@@ -1,6 +1,6 @@
 \section{TF-IDF}
 本節ではTF-IDFについて説明する．
-TF-IDFは...
+Term FrequencyとInverse Document Frequencyを掛け合わせたもので，文書中の単語の重要度の計算方法\cite{tfidf}である．
 
 \subsection{Term Frequency}
 Term Frequencyは文書内における単語の出現頻度を表す．
@@ -22,4 +22,4 @@ IDFが低いほど，他の文書で出現しないため，重要な単語で�
 \subsection{本研究での利用}
 本研究で構築したシステムでは，大学間で共通している近い意味の単語を学習した単語ベクトルから取得する．
 その際に普遍的な単語や，TF-IDF値から重要度が低いと判断できる単語を削除するためにTF-IDFを用いた．
-また，トピックモデルを推測する際にTF-IDFを利用して大学ごとの頻出単語をリストした．
+% また，トピックモデルを推測する際にTF-IDFを利用して大学ごとの頻出単語をリストした．

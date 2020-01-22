@@ -1,0 +1,147 @@
+\section{提供されるAPI}
+本節では提供するAPIの利用方法について述べる．
+
+\subsection{ある大学の単語ベクトルと近い大学の取得}
+ある大学の単語ベクトルと比較した時に，コサイン類似度が高い大学を取得する．
+リクエストボディにはunivNameで検索元の大学名を指定する．
+レスポンスは大学名とコサイン類似度のを含む2次元配列で返す．
+
+POST getSimilarUnivs
+
+\begin{table}[htbp]
+\caption{getSimilarUnivsのリクエストボディ}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+univName & String & 検索元の大学名\\  \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{getSimilarUnivsのレスポンス}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+data & Array & 大学名とコサイン類似度を含む2次元配列\\  \hline
+\end{tabular}
+\end{table}
+
+\subsection{大学に単語を加算した大学を取得}
+ある大学に単語を加算することで別の大学を取得する．
+例えば，明治大学という大学に対して，キリスト教という単語を加算することで，青山学院，立教大学のような明治大学に近くキリスト教の要素を含んだ大学を取得する．
+
+POST addElementsToUniv
+
+\begin{table}[htbp]
+\caption{addElementsToUnivのリクエストボディ}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+univName & String & 検索元の大学名\\
+adds & Array & 加算する単語の配列\\  \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{addElementsToUnivのレスポンス}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+data & Array & 大学名とコサイン類似度を含む2次元配列\\  \hline
+\end{tabular}
+\end{table}
+
+\subsection{大学から単語を減算した大学を取得}
+ある大学から単語を減算することで別の大学を取得する．
+例えば，青山学院大学に対して，キリスト教という単語を減算することで，明治大学，法政大学，中央大学のような青山学院大学からキリスト教の要素を除いた大学を取得する．
+
+POST substractElementsFromUniv
+
+\begin{table}[htbp]
+\caption{substractElementsFromUnivのリクエストボディ}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+univName & String & 検索元の大学名\\
+adds & Array & 減算する単語の配列\\  \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{substractElementsFromUnivのレスポンス}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+data & Array & 大学名とコサイン類似度を含む2次元配列\\  \hline
+\end{tabular}
+\end{table}
+
+\subsection{ある大学と他の大学間で共通の似た意味の単語を取得}
+青山学院大学と明治学院大学が近いと考えられる場合，それぞれの大学に近いベクトルを持つ単語が存在すると考えられる．
+そのような大学間で共通の似た意味の単語を取得する．
+
+POST getCommonTerms
+
+\begin{table}[htbp]
+\caption{getCommonTermsのリクエストボディ}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+univNameFrom & String & 一方の大学名\\ 
+univNameTo & String & もう一方の大学名\\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{getCommonTermsのレスポンス}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+data & Array & 単語とそれぞれの大学名とのコサイン類似度の合計を含む2次元配列\\  \hline
+\end{tabular}
+\end{table}
+
+\subsection{大学の情報を取得}
+本研究で対象となる大学の内，ある大学の学部，偏差値，キャンパス所在地の情報を取得する．
+
+POST getUnivInfo
+
+\begin{table}[htbp]
+\caption{getUnivInfoのリクエストボディ}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+univNameFrom & String & 大学名\\  \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{getUnivInfoのレスポンス}
+\centering
+\begin{tabular}{lll}
+\hline
+プロパティ & タイプ & 説明
+\\ \hline \hline
+% data & Array & 単語とそれぞれの大学名とのコサイン類似度の合計を含む2次元配列\\  \hline
+faculty & Object & keyにキャンパス名，valueに学部名と偏差値を含むオブジェクト \\
+location & Object & keyにキャンパス名，valueに緯度経度の配列 \\ \hline
+\end{tabular}
+\end{table}
