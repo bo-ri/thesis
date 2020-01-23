@@ -11,6 +11,12 @@
 \newblock 高等教育の修学支援新制度.
 \newblock \url{https://www.mext.go.jp/a_menu/koutou/hutankeigen/index.htm}.
 
+\bibitem{university_num}
+旺文社.
+\newblock 日本の大学数は 774 大学 私立大学が約 8 割！「2019 年度
+  日本の大学データ」より.
+\newblock \url{http://eic.obunsha.co.jp/resource/viewpoint-pdf/201907.pdf}.
+
 \bibitem{shigan}
 日本私立学校振興・共済事業団.
 \newblock 平成31(2019)年度私立大学・短期大学等入学志願動向.
@@ -45,11 +51,6 @@
 明畠利樹, 中西健太郎, 岩本拓也.
 \newblock Datingserviceのデータを用いたword2vecによる趣味・嗜好の類似度計算,
   2017.
-
-\bibitem{thesis2}
-本間直人, 北原鉄朗ほか.
-\newblock アニメの主題歌による類似アニメ検索の検討.
-\newblock 研究報告音声言語情報処理 (SLP), Vol. 2018, No.~42, pp. 1--2, 2018.
 
 \bibitem{word2vecBook}
 西尾泰和.

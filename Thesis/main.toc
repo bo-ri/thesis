@@ -2,72 +2,69 @@
 \contentsline {chapter}{謝辞}{ii}
 \contentsline {chapter}{\numberline {第1章}はじめに}{1}
 \contentsline {section}{\numberline {1.1}背景}{1}
-\contentsline {section}{\numberline {1.2}研究目的}{5}
-\contentsline {section}{\numberline {1.3}関連研究}{5}
-\contentsline {subsection}{\numberline {1.3.1}DatingServiceのデータを用いたWord2Vecによる趣味・嗜好の類似度算出}{5}
-\contentsline {subsection}{\numberline {1.3.2}アニメの主題歌による類似アニメ検索の検討}{5}
-\contentsline {subsection}{\numberline {1.3.3}本研究の新規性}{6}
-\contentsline {section}{\numberline {1.4}論文構成}{6}
-\contentsline {chapter}{\numberline {第2章}本研究で用いた技術}{7}
-\contentsline {section}{\numberline {2.1}Word2Vec}{7}
-\contentsline {subsection}{\numberline {2.1.1}Word2Vecの構造}{7}
-\contentsline {subsection}{\numberline {2.1.2}単語ベクトルの次元数}{7}
-\contentsline {subsection}{\numberline {2.1.3}反復回数}{8}
-\contentsline {subsection}{\numberline {2.1.4}windowサイズ}{8}
-\contentsline {subsection}{\numberline {2.1.5}本研究での利用}{8}
-\contentsline {section}{\numberline {2.2}GloVe}{8}
-\contentsline {subsection}{\numberline {2.2.1}概要}{8}
-\contentsline {subsection}{\numberline {2.2.2}パラメータ}{9}
-\contentsline {section}{\numberline {2.3}TF-IDF}{9}
-\contentsline {subsection}{\numberline {2.3.1}Term Frequency}{9}
+\contentsline {section}{\numberline {1.2}研究目的}{6}
+\contentsline {section}{\numberline {1.3}関連研究}{6}
+\contentsline {section}{\numberline {1.4}論文構成}{7}
+\contentsline {chapter}{\numberline {第2章}本研究で用いた技術}{8}
+\contentsline {section}{\numberline {2.1}Word2Vec}{8}
+\contentsline {subsection}{\numberline {2.1.1}Word2Vecの構造}{8}
+\contentsline {subsection}{\numberline {2.1.2}単語ベクトルの次元数}{8}
+\contentsline {subsection}{\numberline {2.1.3}反復回数}{9}
+\contentsline {subsection}{\numberline {2.1.4}windowサイズ}{9}
+\contentsline {subsection}{\numberline {2.1.5}本研究での利用}{9}
+\contentsline {section}{\numberline {2.2}GloVe}{9}
+\contentsline {subsection}{\numberline {2.2.1}概要}{9}
+\contentsline {subsection}{\numberline {2.2.2}パラメータ}{10}
+\contentsline {section}{\numberline {2.3}TF-IDF}{10}
+\contentsline {subsection}{\numberline {2.3.1}Term Frequency}{10}
 \contentsline {subsection}{\numberline {2.3.2}Inverse Document Frequency}{10}
-\contentsline {subsection}{\numberline {2.3.3}本研究での利用}{10}
-\contentsline {chapter}{\numberline {第3章}関連大学推薦システム}{11}
-\contentsline {section}{\numberline {3.1}ユースケース}{11}
-\contentsline {section}{\numberline {3.2}システム構成}{12}
-\contentsline {subsection}{\numberline {3.2.1}概要}{12}
-\contentsline {subsection}{\numberline {3.2.2}モデル部}{12}
-\contentsline {subsection}{\numberline {3.2.3}大学情報データベース部}{13}
-\contentsline {section}{\numberline {3.3}提供されるAPI}{13}
-\contentsline {subsection}{\numberline {3.3.1}ある大学の単語ベクトルと近い大学の取得}{14}
-\contentsline {subsection}{\numberline {3.3.2}大学に単語を加算した大学を取得}{14}
-\contentsline {subsection}{\numberline {3.3.3}大学から単語を減算した大学を取得}{15}
-\contentsline {subsection}{\numberline {3.3.4}ある大学と他の大学間で共通の似た意味の単語を取得}{15}
-\contentsline {subsection}{\numberline {3.3.5}大学の情報を取得}{16}
-\contentsline {chapter}{\numberline {第4章}検証実験}{17}
-\contentsline {section}{\numberline {4.1}実験の目的}{17}
-\contentsline {section}{\numberline {4.2}実験の方法}{18}
-\contentsline {subsection}{\numberline {4.2.1}単語ベクトルの次元数}{18}
-\contentsline {subsection}{\numberline {4.2.2}反復回数}{19}
-\contentsline {subsection}{\numberline {4.2.3}windowサイズ}{19}
-\contentsline {subsection}{\numberline {4.2.4}x-max}{19}
-\contentsline {section}{\numberline {4.3}Word2Vecのモデル検証結果}{19}
-\contentsline {subsection}{\numberline {4.3.1}WV\_ A}{20}
-\contentsline {subsection}{\numberline {4.3.2}WV\_ B}{21}
-\contentsline {subsection}{\numberline {4.3.3}WV\_ C}{21}
-\contentsline {subsection}{\numberline {4.3.4}WV\_ D}{22}
-\contentsline {subsection}{\numberline {4.3.5}WV\_ E}{23}
-\contentsline {subsection}{\numberline {4.3.6}WV\_ F}{23}
-\contentsline {subsection}{\numberline {4.3.7}WV\_ G}{24}
-\contentsline {subsection}{\numberline {4.3.8}WV\_ H}{24}
-\contentsline {section}{\numberline {4.4}Word2Vecモデルの考察}{25}
-\contentsline {subsection}{\numberline {4.4.1}青山学院大学に近い大学}{25}
-\contentsline {subsection}{\numberline {4.4.2}$ 青山学院大学 - キリスト教 $}{26}
-\contentsline {subsection}{\numberline {4.4.3}青山学院大学と明治学院大学で共通の近い単語}{26}
-\contentsline {section}{\numberline {4.5}GloVeのモデル検証結果}{27}
-\contentsline {subsection}{\numberline {4.5.1}GV\_ A}{27}
-\contentsline {subsection}{\numberline {4.5.2}GV\_ B}{28}
-\contentsline {subsection}{\numberline {4.5.3}GV\_ C}{29}
-\contentsline {subsection}{\numberline {4.5.4}GV\_ D}{30}
-\contentsline {subsection}{\numberline {4.5.5}GV\_ E}{30}
-\contentsline {subsection}{\numberline {4.5.6}GV\_ F}{31}
-\contentsline {subsection}{\numberline {4.5.7}GV\_ G}{31}
-\contentsline {subsection}{\numberline {4.5.8}GV\_ H}{32}
-\contentsline {section}{\numberline {4.6}GloVeモデルの考察}{33}
-\contentsline {subsection}{\numberline {4.6.1}青山学院大学と近い大学}{33}
-\contentsline {subsection}{\numberline {4.6.2}$ 青山学院大学 - キリスト教 $}{33}
-\contentsline {subsection}{\numberline {4.6.3}青山学院大学と明治学院大学で共通の近い単語}{34}
-\contentsline {section}{\numberline {4.7}モデル評価のまとめ}{34}
-\contentsline {chapter}{\numberline {第5章}おわりに}{35}
-\contentsline {section}{\numberline {5.1}改善点}{35}
-\contentsline {chapter}{参考文献}{37}
+\contentsline {subsection}{\numberline {2.3.3}本研究での利用}{11}
+\contentsline {chapter}{\numberline {第3章}関連大学推薦システム}{12}
+\contentsline {section}{\numberline {3.1}ユースケース}{12}
+\contentsline {section}{\numberline {3.2}システム構成}{13}
+\contentsline {subsection}{\numberline {3.2.1}概要}{13}
+\contentsline {subsection}{\numberline {3.2.2}モデル部}{13}
+\contentsline {subsection}{\numberline {3.2.3}大学情報データベース部}{14}
+\contentsline {section}{\numberline {3.3}提供されるAPI}{15}
+\contentsline {subsection}{\numberline {3.3.1}ある大学の単語ベクトルと近い大学の取得}{15}
+\contentsline {subsection}{\numberline {3.3.2}大学に単語を加算した大学を取得}{15}
+\contentsline {subsection}{\numberline {3.3.3}大学から単語を減算した大学を取得}{16}
+\contentsline {subsection}{\numberline {3.3.4}ある大学と他の大学間で共通の似た意味の単語を取得}{16}
+\contentsline {subsection}{\numberline {3.3.5}大学の情報を取得}{17}
+\contentsline {chapter}{\numberline {第4章}検証実験}{18}
+\contentsline {section}{\numberline {4.1}実験目的}{18}
+\contentsline {section}{\numberline {4.2}実験方法}{19}
+\contentsline {subsection}{\numberline {4.2.1}単語ベクトルの次元数}{19}
+\contentsline {subsection}{\numberline {4.2.2}反復回数}{20}
+\contentsline {subsection}{\numberline {4.2.3}windowサイズ}{20}
+\contentsline {subsection}{\numberline {4.2.4}x-max}{20}
+\contentsline {section}{\numberline {4.3}Word2Vecのモデル検証結果}{20}
+\contentsline {subsection}{\numberline {4.3.1}WV\_ A}{21}
+\contentsline {subsection}{\numberline {4.3.2}WV\_ B}{22}
+\contentsline {subsection}{\numberline {4.3.3}WV\_ C}{22}
+\contentsline {subsection}{\numberline {4.3.4}WV\_ D}{23}
+\contentsline {subsection}{\numberline {4.3.5}WV\_ E}{24}
+\contentsline {subsection}{\numberline {4.3.6}WV\_ F}{25}
+\contentsline {subsection}{\numberline {4.3.7}WV\_ G}{25}
+\contentsline {subsection}{\numberline {4.3.8}WV\_ H}{26}
+\contentsline {section}{\numberline {4.4}Word2Vecモデルの考察}{27}
+\contentsline {subsection}{\numberline {4.4.1}青山学院大学に近い大学}{27}
+\contentsline {subsection}{\numberline {4.4.2}$ 青山学院大学 - キリスト教 $}{27}
+\contentsline {subsection}{\numberline {4.4.3}青山学院大学と明治学院大学で共通の近い単語}{28}
+\contentsline {section}{\numberline {4.5}GloVeのモデル検証結果}{29}
+\contentsline {subsection}{\numberline {4.5.1}GV\_ A}{29}
+\contentsline {subsection}{\numberline {4.5.2}GV\_ B}{30}
+\contentsline {subsection}{\numberline {4.5.3}GV\_ C}{31}
+\contentsline {subsection}{\numberline {4.5.4}GV\_ D}{31}
+\contentsline {subsection}{\numberline {4.5.5}GV\_ E}{32}
+\contentsline {subsection}{\numberline {4.5.6}GV\_ F}{33}
+\contentsline {subsection}{\numberline {4.5.7}GV\_ G}{34}
+\contentsline {subsection}{\numberline {4.5.8}GV\_ H}{34}
+\contentsline {section}{\numberline {4.6}GloVeモデルの考察}{35}
+\contentsline {subsection}{\numberline {4.6.1}青山学院大学と近い大学}{35}
+\contentsline {subsection}{\numberline {4.6.2}$ 青山学院大学 - キリスト教 $}{35}
+\contentsline {subsection}{\numberline {4.6.3}青山学院大学と明治学院大学で共通の近い単語}{36}
+\contentsline {section}{\numberline {4.7}モデル評価のまとめ}{36}
+\contentsline {chapter}{\numberline {第5章}おわりに}{37}
+\contentsline {section}{\numberline {5.1}改善点}{37}
+\contentsline {chapter}{参考文献}{39}
