@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.11.5)  23 JAN 2020 14:28
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.11.5)  15 FEB 2020 06:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,65 +246,65 @@ Writing index file main.idx
 (./chap5.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 \c@mpl=\count114
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 56.
+(Font)              scaled to size 9.60999pt on input line 57.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 56.
+(Font)              scaled to size 9.60999pt on input line 57.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 56.
+(Font)              scaled to size 11.53198pt on input line 57.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 56.
+(Font)              scaled to size 11.53198pt on input line 57.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 56.
+(Font)              scaled to size 19.9311pt on input line 57.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 56.
+(Font)              scaled to size 19.9311pt on input line 57.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 56.
+(Font)              scaled to size 13.83836pt on input line 57.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 56.
+(Font)              scaled to size 13.83836pt on input line 57.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 56.
+(Font)              scaled to size 13.83836pt on input line 57.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 56.
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+(Font)              scaled to size 6.72699pt on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 56.
+(Font)              scaled to size 6.72699pt on input line 57.
  [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 60.
+(Font)              scaled to size 23.90964pt on input line 61.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 60.
+(Font)              scaled to size 23.90964pt on input line 61.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 60.
+(Font)              scaled to size 23.90964pt on input line 61.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 60.
+(Font)              scaled to size 23.90964pt on input line 61.
  (./abstract.tex
 [1
 
@@ -316,13 +316,13 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 16.
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 69.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 69.
+(Font)              scaled to size 9.60999pt on input line 70.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 69.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 69.
+(Font)              scaled to size 9.60999pt on input line 70.
  [1] (./thanks.tex) [2
 
 ] (./main.toc [3
@@ -406,19 +406,8 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 38.
  [21] [22] [23] [24] [25]) [26]
-(./evaluateWord2Vec.tex [27]
-
-LaTeX Warning: Reference `table: wvb' on page 28 undefined on input line 51.
-
-
-LaTeX Warning: Reference `table: wvf' on page 28 undefined on input line 51.
-
-) (./gloveResult.tex [28] [29] [30] [31] [32] [33] [34]) (./evaluateGloVe.tex
-[35])
-
-LaTeX Warning: Reference `table: gvd' on page 36 undefined on input line 90.
-
-) [36]
+(./evaluateWord2Vec.tex [27]) (./gloveResult.tex [28] [29] [30] [31] [32]
+[33] [34]) (./evaluateGloVe.tex [35])) [36]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
@@ -439,18 +428,14 @@ Underfull \hbox (badness 1742) in paragraph at lines 4--8
 ]) [40]
 No file main.ind.
 (./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
-(./chap5.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./chap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 3169 strings out of 494865
- 38349 string characters out of 6179769
+ 3166 strings out of 494865
+ 38313 string characters out of 6179769
  107034 words of memory out of 5000000
- 6455 multiletter control sequences out of 15000+600000
+ 6452 multiletter control sequences out of 15000+600000
  27974 words of font info for 122 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 27i,11n,43p,278b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,43p,276b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (47 pages, 156152 bytes).
+Output written on main.dvi (47 pages, 155956 bytes).
